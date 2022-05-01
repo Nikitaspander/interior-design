@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+*{
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+.menu{
+	background-color: #44085c;
+	color: white;
+	padding:10px 20px ;
+	border-radius: 8px;
+	position: fixed ;
+	width: 150px;
+	height: 100%;
+	top: 0;
+	left: 0;
+
+}
+.menu a{
+	text-decoration: none;
+	color: white;
+	display: block;
+	padding:8px 16px ;
+	width: 100%;
+}
+.menu a:hover{
+	background-color: white;
+	color: black;
+}
+.main{
+	margin-left: 360px;
+	margin-top: 80px;
+	margin-right: 40px;
+}
+h1{
+	font-size: 64px;
+	font-weight: 400;
+}
+body{
+	margin: 0;
+	font-size: 16px;
+	line-height: 1.5;
+}
+.images img{
+	width: 45%;
+	margin: 5px;
+	border-radius: 8px;
+	opacity: 0.7;
+}
+.images img:hover{
+	opacity: 1;
+}
+h2{
+	font-size: 48px;
+	font-weight: 400;
+	margin: 10px 0;
+	color:#45015d ;
+}
+hr{
+	width: 100%;
+	border: 5px solid #45015d;
+	border-radius: 4px;
+	margin: 20px 0;
+}
+.member{
+	display: inline-block;
+	width: 30%;
+	margin: ;
+	padding: 8px;
+
+}
+.member img{
+	border-radius: 8px;
+	width: 100%;
+	filter: grayscale(30%);
+}
+.position{
+	color: gray;
+}
+.desc{
+	background-color: #f1f1f1;
+	border-radius: 8px;
+	padding: 2px 16px 5px;
+}
+.tarif{
+	display: inline-block;
+	width: 49%;
+	text-align: center;
+	box-sizing: border-box;
+	padding: 0 8px;
+}
+.tarif ul{
+	list-style: none;
+	margin: 0 0;
+	padding: 0 0;
+	background-color:#f0f0f0 ;
+	border-radius: 10px;
+}
+.tarif li{
+	padding: 16px 0;
+	border-bottom: 1px solid #dddddd;
+	border-radius: 10px;
+}
+.tarif .tarif-name{
+	color: white;
+	background-color:#45015d ;
+	font-size: 24px;
+	padding: 32px 0;
+}
+.tarif .price{
+	font-size:30px ;
+	font-weight: 700;
+
+}
+.tarif .period{
+	color:#494949 ;
+}
+.tarif a{
+	text-decoration: none;
+	background-color: #45015d;
+	border-radius: 20px;
+	padding: 8px 20px;
+	font-size: 16px;
+	color: white;
+}
+.tarif a:hover{
+	background-color: white;
+	color: #45015d;
+}
+.pro .tarif-name{
+	background-color: #f44336;
+}
+.pro a{
+	background-color: #f44336;
+	color: white;
+}
+.pro a:hover{
+	background-color: white;
+	color: #f44336;
+}
+.Contact input{
+	width: 100%;
+	border:1px solid #ccc ;
+	padding: 8px;
+	outline: none;
+	font-size: 16px;
+}
+.Contact button{
+	width: 100%;
+	background-color:#44085c ;
+	color: white;
+	border-radius: 8px;
+	outline: none;
+	border: none;
+	padding:12px 24px;
+	font-size: 16px;
+}
+.Contact button:hover{
+	background-color: #ccc;
+	color: black;
+}
+.footer{
+	text-align: right;
+	background-color: #f1f1f1;
+	padding: 32px 58px 32px;
+}
+.center{
+	color: black;
+}
+.Contact{
+	margin-bottom: 75px;
+}
